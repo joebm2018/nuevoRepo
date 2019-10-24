@@ -5,7 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = express_1.default();
-app.get('./', (req, res) => {
+app.get('/api', (req, res) => {
     res.send("Hola soy la API en TS");
 });
-app.listen(3000, () => console.log("Servidor corriendo en el puerto 3000"));
+const port = 3000;
+app.listen(port, () => console.log("Servidor corriendo en el puerto " + port));
