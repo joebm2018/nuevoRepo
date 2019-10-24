@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+        <script type = "text/javascript"
+        src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    
+     
+    <title>Formularios</title>
+    <script>
+       window.onload = function() {
+        document.addEventListener("DOMContentLoaded", function() {
+          var elems = document.querySelectorAll("select");
+          var instances = M.FormSelect.init(elems, options);
+        });
+        
+    </script>
+  </head>
+
+  <body>
+    <main class="container-fluis">
+      <h4>Formulario</h4>
+      <div class="row">
+        <div class="col m6">
+          <!-- autocomplete desactiva/activa -->
+          <form autocomplete="off" class="row ">
+            <div class="form-group col m12">
+              <label for="inputNombre">Nombre y Apellidos</label>
+              <input
+                type="text"
+                id="inputNombre"
+                placeholder="Ejm. Juan Perez"
+                class="form-control"
+              />
+              <!-- opcional el small -->
+              <small class="form-text " id="smallAyuda"
+                >Ingresa al menos 10 caracteres</small
+              >
+            </div>
+
+            <div class="form-group col m12">
+              <label for="inputPassword">Contraseña</label>
+              <input
+                type="password"
+                id="inputPassword"
+                placeholder="Ingrese su Contraseña"
+                class="form-control"
+              />
+              <small class="form-text text-muted"
+                >Mínimo una Mayúscula y una Minúscula</small
+              >
+            </div>
+            <div class="form-group col m6">
+              <label for="inputMensaje">Escriba un Mensaje</label>
+              <textarea
+                id="inputMensaje"
+                cols="30"
+                rows="10"
+                class=""
+                placeholder="escriba un mensaje"
+              ></textarea>
+              <small class="text-muted" id="textArea"
+                >Quedan 50 Caracteres...</small
+              >
+            </div>
+
+            <div class="form-group col m6">
+              <div class="input-field col s12">
+                <label>Elija Idiona</label>
+                <br />
+                <form action="#">
+                  <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Español</span>
+                    </label>
+                  </p>
+                </form>
+                <form action="#">
+                  <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Ingles</span>
+                    </label>
+                  </p>
+                </form>
+                <form action="#">
+                  <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Portugues</span>
+                    </label>
+                  </p>
+                </form>
+              </div>
+            </div>
+            
+            <div class="form-group col m6">
+              <div class="input-field col s12">
+                <label>Elija Turno</label>
+                <br />
+                <p>
+                  <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Mañana</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Tarde</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Noche</span>
+                  </label>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+          <label>Elija Pais</label>
+          <select>
+            <option value="" disabled selected>Select Fruit</option>
+            <option value="pe">Peru</option>
+            <option value="es">España</option>
+            <option value="ar">Argentina</option>
+          </select>
+        </div>
+            
+          </form>
+        </div>
+        <div class="col m6">
+          texto 2
+        </div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+  </body>
+</html>

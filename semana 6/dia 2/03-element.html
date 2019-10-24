@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            border: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        .redondo{
+            width: 200px;
+            height: 200px;
+            border: 2px solid tomato;
+            box-shadow: 8px 8px 8px #ccc;
+            position: relative;
+            top: 40px;
+            left: 50px;
+            border-radius: 50%;
+        }
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            border: 2px solid tomato;
+            box-shadow: 8px 8px 8px #ccc;
+            position: relative;
+            top: 40px;
+            left: 50px;
+        }
+        #miDiv{
+            height: 250px;
+            width: 250px;
+            overflow: auto;
+            position: relative;
+            top: 65px;
+        }
+        #miContenido{
+            height: 800px;
+            width:2000px;
+            background-color: peru;
+        }
+        #botoncito,#cambiarClase,#multiclase,#agregarClase{
+            position: relative;
+            top: 65px;
+        }
+        .borde{
+            border: 2px solid blue;
+        }
+        .fondo{
+            background-color: firebrick;
+        }
+        #multiclase{
+            height: 60px;
+            width: 60px;
+        }
+        .margen{
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadrado" id="cuadrado"></div>
+    <div id="multiclase" class="borde fondo">
+
+    </div>
+    <button id="botoncito">
+        Presoiname
+    </button>
+
+    <button id="cambiarClase">
+        Cambiar Clase
+    </button>
+    <button id="agregarClase">
+        Agregando una clase
+    </button>
+    <div id="miDiv">
+        <div id="miContenido">
+            algo de texto aleatorio
+            <br>
+            <br>
+            mas texto aleatorio
+        </div>
+    </div>
+    <script src="03-element.js"></script>
+</body>
+</html>

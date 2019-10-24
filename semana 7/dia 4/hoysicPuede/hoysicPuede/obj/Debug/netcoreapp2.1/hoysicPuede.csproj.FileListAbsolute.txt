@@ -1,0 +1,11 @@
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\bin\Debug\netcoreapp2.1\hoysicPuede.deps.json
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\bin\Debug\netcoreapp2.1\hoysicPuede.runtimeconfig.json
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\bin\Debug\netcoreapp2.1\hoysicPuede.runtimeconfig.dev.json
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\bin\Debug\netcoreapp2.1\hoysicPuede.dll
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\bin\Debug\netcoreapp2.1\hoysicPuede.pdb
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.csprojAssemblyReference.cache
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.AssemblyInfoInputs.cache
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.AssemblyInfo.cs
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.dll
+C:\Users\mañana\Documents\GitHub\Codigo6-Joes\semana 7\dia 4\hoysicPuede\hoysicPuede\obj\Debug\netcoreapp2.1\hoysicPuede.pdb

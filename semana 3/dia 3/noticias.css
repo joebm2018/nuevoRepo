@@ -1,0 +1,145 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.contenedor{
+
+}
+header{
+    height: 60px;
+    background-color: #4285f4;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-grow: 8;
+}
+.menu h1{
+    margin: 0 20px;
+}
+.menu label{
+    margin: 0 10px;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.busqueda input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid;
+    height: 30px;
+    color: #fff;
+
+}
+
+/* segunda manera */
+@media screen and (max-width:700px){
+    body{
+        /* background-color:red; */
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .busqueda{
+        justify-content: center;
+    }
+    main{
+        /* flex-direction: column; */
+        display: block;
+        /* flex-direction: column; */
+    }
+    .primicia{
+        height: 300px;
+    }
+    .titular{
+        height: 25%;
+    }
+    .publicidad{
+        250px;
+    }
+    .publicidad p{
+        margin: auto;
+    }
+    .carta{
+        flex-direction: row;
+    }
+}
+
+main{
+    display: flex;
+}
+.primicia{
+    /* flex combina flex-grow  flex shrink  flex-basis */
+    flex: 2 0 65%;
+    height: 400px;
+    background-image: url('suerte.jpg');
+    background-position: center;
+    display: flex;
+}
+.titular{
+    height: 30%;
+    align-self: flex-end;
+    background-color:rgba(60,60,60,0.8);
+    color: white;
+    font-family: 'roboto';
+    padding: 10px;
+}
+.publicidad{
+    flex: 0 0 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    font-family: 'roboto';
+}
+footer{
+    height: 100%;
+    display: flex;
+    /* deje espacio entre los costados y mis cartas */
+    justify-content: space-around;
+    align-items: center;
+}
+.carta{
+    width: 600px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;  
+    /* sus hijos sean c. */
+}
+.arriba, .abajo{
+    /* vana a ser iguales relacion de 1 a 1 */
+    flex-grow: 1;
+    /* hacemos que no se encoja con el valor 0 */
+    flex-shrink: 0;
+    /* le da un tamaño inicial */
+    flex-basis: 50%;
+}
+.abajo{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.abajo p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+.arriba{
+    background-image: url('http://lorempixel.com/300/300');
+}

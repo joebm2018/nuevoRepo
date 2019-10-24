@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\bin\Debug\netcoreapp2.1\tarea.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\bin\Debug\netcoreapp2.1\tarea.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\bin\Debug\netcoreapp2.1\tarea.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\bin\Debug\netcoreapp2.1\tarea.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\bin\Debug\netcoreapp2.1\tarea.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\tarea\tarea\obj\Debug\netcoreapp2.1\tarea.pdb

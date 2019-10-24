@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    </style>
+    <script>
+      window.onload=function(){
+        var total=0;
+        var inputCantB=document.getElementById("inputCantidad");                               
+          var inputDescB=document.getElementById("inputDescripcion");
+          var inputPrUnB=document.getElementById("inputPrecioUnitario");
+          var btnAddB=document.getElementById("btnAgregar");
+
+        var btnA=document.getElementById("btnAgregar");
+        btnA.onclick=function(){
+          //var mitabla=document.getElementById("miTabla");
+          //sacamos el valor de los input que ingresamos
+          var inputCant=document.getElementById("inputCantidad").value;
+          var inputDesc=document.getElementById("inputDescripcion").value;
+          var inputPrUn=document.getElementById("inputPrecioUnitario").value;
+          //sacamos el valor el id de la tabla
+          var tablabody=document.getElementById("tbody");
+           //creamos 1 tr y 3 td
+          var tr=document.createElement("tr");
+          var td1=document.createElement("td");
+          var td2=document.createElement("td");
+          var td3=document.createElement("td");
+          var td4=document.createElement("td");
+          td1.innerHTML=inputCant;
+          td2.innerHTML=inputDesc;
+          td3.innerHTML=inputPrUn;
+          td4.innerHTML=inputCant*inputPrUn;
+          tr.appendChild(td1);
+          tr.appendChild(td2);
+          tr.appendChild(td3);
+          tr.appendChild(td4);
+          tablabody.appendChild(tr);
+          //sumamos los sub-total
+          total=total+(inputCant*inputPrUn);
+          var inputTot=document.getElementById("inputTotal");
+          inputTot.setAttribute("value",total);
+          
+          
+          //bloquear entradas
+          inputCantB.setAttribute("disabled","");
+          inputDescB.setAttribute("disabled","");
+          inputPrUnB.setAttribute("disabled","");
+          btnAddB.setAttribute("disabled","");
+
+        }
+        var btnmas=document.getElementById("btnMas");
+        btnmas.onclick=function(){
+          //limpiar los camps
+          inputCantB.value="";
+          inputDescB.value="";
+          inputPrUnB.value="";
+          //desbloquearlos
+          inputCantB.removeAttribute("disabled");
+          inputDescB.removeAttribute("disabled");
+          inputPrUnB.removeAttribute("disabled");
+          btnAddB.removeAttribute("disabled");
+          
+          inputCantB.focus();
+        }
+      }
+    
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th>Cantidad</th>
+            <th>Descripcion</th>
+            <th>Precio Unitario</th>
+            <th>Accion</th>
+          </tr>
+          
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" id="inputCantidad" disabled></td>
+            <td><input type="text" id="inputDescripcion" disabled></td>
+            <td><input type="text" id="inputPrecioUnitario" disabled></td>
+            <td><button id="btnAgregar" disabled>Agregar</button></td>
+          </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Detalle de Compra</h3>
+    <table border="1" id="miTabla" class="table table-striped">
+      <thead>
+        <tr>
+            <th>Cantidad</th>
+            <th>Descripcion</th>
+            <th>Precio Unitario</th>
+            <th>SubTotal</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+          <!-- <tr>
+            <td>12</td>
+            <td>arroz</td>
+            <td>12.03</td>
+          </tr> -->
+      </tbody>
+      <tfoot>
+        <tr >
+          <td colspan="3" align="center">TOTAL</td>
+          <td><input type="text" value="0.00" id="inputTotal"></td>
+          <td><button class="btnAdd" id="btnMas">+</button></td>
+        </tr>
+      </tfoot>
+    </table>
+    
+</body>
+</html>

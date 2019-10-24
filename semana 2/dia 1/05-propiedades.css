@@ -1,0 +1,26 @@
+/* nosotros vimos q se podia nombrar al color por su nombre */
+h1{
+    color: green;
+}
+/* pero la  segunda manera va a usar una combincion de Rojo Verde Azul */
+#rgb{
+    color:rgb(128,100,38);
+}
+/* los dos primeros numeros son rojo los segundos son verdes, y los terceros son azules */
+#hex{
+    /* #RRGGBB */
+    color: #FF5628;
+}
+#rgba{
+    color: rgba(20, 20, 200, 0.1)
+}
+/* width ancho del contenedor
+height la altura */
+#tamanio{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    overflow: scroll;
+    /* hiddem esconde 
+       scrool  ajusta*/
+}

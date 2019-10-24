@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body,html{
+    height: 100%;
+} */
+div.contenedor{
+    height: 100%;
+    /* width: calc(100%-2px) */
+    width: 100%;
+    border: 1px solid red;
+}
+#s1{
+    width: 40%;
+    height: 80%;
+    border: 2px solid blue;
+}
+#s2{
+    width: 60%;
+    /* height:60%; */
+    border: 2px solid red;
+}
+header{
+    border: 2px solid green;
+}

@@ -1,0 +1,2 @@
+https://notifyjs.jpillora.com/
+https://console.cloud.google.com/apis/credentials/key/70775720-72d1-42b5-bdd7-70fc3392e95b?project=data-mind-250322&supportedpurview=project

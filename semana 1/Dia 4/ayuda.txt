@@ -1,0 +1,19 @@
+alt+shift+F ordenar
+ctrl+A marcar todo
+
+
+EMET
+<hr> linea que divide
+colspan atributo para combinar columnas
+y para junta filas rowspan
+
+la cabecera de la tabla va en el <thead>
+id es unico
+class es coompartido
+
+
+
+
+PAGINAS
+https://www.w3schools.com/tags/att_input_pattern.asp
+	codrops

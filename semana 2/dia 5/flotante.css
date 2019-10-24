@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body *{
+    border: 1px solid blue;
+}
+img{
+    float: left;
+}
+#contenedor{
+    border: 1px solid blue;
+    background-color: lightgray;
+}
+.clear{
+    clear: both;
+}
+.imagen2{
+    float:right;
+}

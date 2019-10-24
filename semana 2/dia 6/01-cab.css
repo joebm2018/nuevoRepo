@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #ccc;
+    height: 100%;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 8px black;
+    border-radius:10px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* todo lo que se rebalse se oculta en lugar de utilizaer border radius */
+    overflow: hidden;
+
+
+    /* se centra en el eje x */
+    /* margin: 0% auto; */
+
+    /* centrar el elemnto
+    resetear body y html */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.hijo{
+    height: 180px;
+    background-color: white;
+    position: relative;
+    top: 120px;
+}
+.avatar{
+      width: 65px;
+      border-radius: 50px;
+      border: 2px solid white;
+      /* margin: 0 auto; */
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+.texto{
+    position: relative;
+    top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.texto>h3, .texto>p{
+    text-align: center;
+}
+.texto>hr{
+    margin: 0 20px;
+    border: 1px solid skyblue
+
+    /*     o 
+    border-bottom: 1px solid skyblue;
+    border-top: 0px; */
+}
+.texto>p{
+    margin: 0 15px;
+    padding: 10px 0;
+}

@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\bin\Debug\netcoreapp2.1\notaminima.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\bin\Debug\netcoreapp2.1\notaminima.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\bin\Debug\netcoreapp2.1\notaminima.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\bin\Debug\netcoreapp2.1\notaminima.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\bin\Debug\netcoreapp2.1\notaminima.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\notaminima\notaminima\obj\Debug\netcoreapp2.1\notaminima.pdb

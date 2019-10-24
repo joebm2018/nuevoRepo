@@ -1,0 +1,7 @@
+Bracket Pair Colorizer
+Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+
+jQuery Code Snippets
+
+Prettier - Code formatter
+vscode-icons

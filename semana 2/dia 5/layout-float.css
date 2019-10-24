@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body, html{
+    height: 100%;
+}
+header{
+    height: 10%;
+    background-color: skyblue;
+}
+.contenedor{
+    
+    width: 80%;
+    height: 100;
+    margin: 0 10%;
+}
+.superior{
+    width: 60%;
+}
+.hero{
+    width: 40%;
+    height: 45%;
+    background-color: gray;
+    float: left;
+    clear:left;
+}
+.sidebar{
+    width: 40%;
+    height: 55%;
+    background-color: red;
+    float: left;
+    clear:left;
+}
+.maincontent{
+    widows: 60%;
+    height: 75%;
+    background-color: yellow;
+    float: right;
+    
+}

@@ -1,0 +1,50 @@
+#caja{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 4px dashed gray;
+    /* ejeX y ejeY */
+    /* scale me cambia e   */
+    /* transform: scale(2) translate(50%,50%); */
+    transition-property:transform;
+    /* ambos comandos hacen la tansicion de movimiento  */
+    transition-duration: 2s;
+    /* transition-timing-function:ease-in-out ; */
+    transition-timing-function:linear ;
+}
+/* hover cuando pasamos mouse encima del objeto */
+#caja:hover{
+    /* background-color: brown;
+    border: 6px dotted blue; */
+    transform: translate(50%,50%) scale(1.2) rotate(360deg);
+
+
+}
+#caja2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(80,20,80);
+    border: 3px solid yellowgreen;
+    /* skew  mueve los elementos horizontales*/
+    /* transform: skew(40deg); */
+    /* transform: skewX(20deg) skewY(40deg); */
+    transform: translate(50%,50%) rotate(45deg);
+}
+#bola1, #bola2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 50%;
+    transition-duration: 2400ms;
+}
+#bola1{
+    background-color: blue;
+    transition-timing-function: ease;
+}
+#bola2{
+    transition-timing-function: linear;
+}
+#bola2:hover, #bola1:hover{
+    transform: translate(700px);
+}

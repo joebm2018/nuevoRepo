@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url(textura01.jpg);
+}
+#contenedor{
+    border: red 1px solid;
+    margin: 60px;
+    padding: 10px;
+}
+#caja1{
+    border: blue 1px solid;
+    margin: 40px;
+    /* si pongodos variables la primera aplicara para arriba y abajo y la segunda para los costados */
+    padding: 20px;
+    background: rgb(157, 89, 170) url(textura3.jpg);
+    background-repeat: no-repeat;
+    height: 200px;    
+}
+#caja2{
+    background-image: url(texturaicon.jpg);
+    background-repeat: repeat-y ;
+    border: purple 2px solid;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 60px;
+        /* arriba derecha abajo izquierda */
+    padding: 20px 40px 60px 80px;
+    height: 250px;
+    width: 250px;
+}
+#caja3{
+    /* border-width los cuatro lados */
+    /* border-width: 6px; */
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 6px;
+    border-left-width: 1px;
+    border-color: rgb(129, 16, 16);
+    border-style:solid;
+    border-bottom-style: double;
+    border-top-style:dotted;
+    border-right-style:dashed;
+    border-left-style:dashed;
+    /* ovalados */
+    /* border-radius:20px;  */
+
+    /* esq sup izq - esq sup der-esquina inferior derecha- esquina inf der */
+    /* border-radius:20px 40px 60px 80px; */
+    
+    border-radius: 15%;
+}

@@ -1,0 +1,72 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    background-color: gray;
+}
+body{
+    margin-top: 5%;
+    font-family: 'Prompt', sans-serif;
+
+}
+.contenedor{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow */
+    box-shadow: 3px 3px 5px black;
+    margin: 0% auto;
+    padding: 0 10px 10px 10px;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: relative;
+    left: 130px;
+    /* 350 / 2  = 175
+       175 - 45 = 130 */
+    top: -45px;
+}
+
+p{
+    text-align: center;
+}
+.caja{
+    width: 270px;
+    position:relative;
+    top: -10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.input{
+    border: 0;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    width: 200px;
+
+}
+h1{
+    margin-top: 20px;
+}
+.boton{
+    /* font-family: 'Prompt', sans-serif; */
+    padding: 5px;
+    border: 0;
+    border-radius: 12px;
+    background-color: steelblue;
+    color: white;
+    font: bold 14px 'Prompt';
+    text-align: center;
+    width: 100px;
+}
+.olvido{
+    text-align: center;
+    font-size: 10px;
+}

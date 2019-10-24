@@ -1,0 +1,31 @@
+/* Este es mi comentario */
+/* con * llamamos a todo */
+*{
+    color: violet;
+}
+p{
+    color: firebrick;
+    font-size: 30px;
+}
+label{
+    color: purple;
+}
+/* todo los label dentro de div */
+div label{
+    font-size: 45px;
+    color: hotpink;
+}
+/* todo los hijos inmediatos de div */
+div>label{
+    color: blue;
+}
+/* el primer hermano de h1 */
+h1 + h2{
+    /* font-weight GROSOR */
+    font-weight: bold;
+    color: green;
+}
+/* todo los elementos */
+h3,h4,h5{
+    background-color: yellow;
+}

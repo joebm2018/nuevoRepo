@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+/* #contenedor{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+} */
+header{
+    height: 60px;
+    background-color: #4285f4;
+    font-family: 'Roboto', sans-serif;
+    display: flex
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-grow: 8;
+}
+.menu h1{
+    margin: 0 20px;
+}
+.menu label{
+    margin: 0 10px;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.busqueda input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid;
+    height: 30px;
+    color: #fff;
+
+}

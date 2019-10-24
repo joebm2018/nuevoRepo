@@ -1,0 +1,7 @@
+Se tiene una base de datos que almacena información de los usuarios
+y de sus agendas. Una agenda permite a los usuarios guardar citas 
+que van a tener en el futuro. Una cita comienza y termina en una 
+fecha dada y tiene una descripción. Se puede elegir un recordatorio
+para una cita. Los recordatorios son de distintos tipos: una señal,
+un pop-up o un correo que contiene la descripción. Se puede elegir 
+cuando tiempo antes de la cita ser recordado.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="02-eventos.js"></script>
+    <title>Document</title>
+    <style>
+        #captcha{
+            width: 250px;
+            border: 2px solid black;
+            padding: 5px;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- fieldset para formukario -->
+    <fieldset>
+        <legend>formulario</legend>
+        <label>Correo</label>
+        <input type="text" id="inputCorreo"
+                placeholder="Ingrese su correo">
+                <select  id="comida">
+                    <option value="0" selected>Elija una opcion</option>
+                    <option value="ff">comida rapida</option>
+                    <option value="cc">comida casera</option>
+                    <option value="p">Piqueos</option>
+                </select>
+                <select id="tipoComida" disabled>
+                    <option value="0" selected>Seleccione..</option>
+                </select>
+                <div id="captcha">
+                    <p>
+                        de doble click para validar que no es un robot
+                    </p>
+                    <img src="https://picsum.photos/200/200" id="imagen" alt="">
+                </div>
+                
+
+    </fieldset>
+</body>
+</html>

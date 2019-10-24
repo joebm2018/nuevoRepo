@@ -1,0 +1,16 @@
+https://openweathermap.org/api
+
+https://daneden.github.io/animate.css/    animate.css
+
+https://fontawesome.com/
+
+https://cdnjs.com/libraries/font-awesome/4.7.0
+font awesome cdn
+
+https://rapidapi.com/dnawebma/api/dna1
+
+
+https://bootswatch.com/slate/
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: #333333;
+            color: azure;
+        }
+        /* para que rote el rombito dando vueltas y vueltas */
+        @keyframes roteishon{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg)
+            }
+        }
+        /* añade antes o al costado del elemento
+           hoverefecto */
+        .item::before{
+
+            position:relative;
+            top: -2px;
+            animation-timing-function: linear;
+            animation-name: roteishon;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+            content:"";
+            width: 5px;
+            height: 5px;
+            background-color: azure;
+            /* generar un rombito antes de la letra */
+            display: inline-block;
+            margin-right: 5px;
+            /* transform: translate(0,-2px) rotate(45deg); */
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+    <main id="principal">
+
+    </main>
+    <script src="02-element.js"></script>
+</body>
+</html>

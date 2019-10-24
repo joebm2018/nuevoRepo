@@ -1,0 +1,50 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.contenedor{
+    width: 500px;
+    height: 2000px;
+    border: 1px solid white;
+    position: relative;
+}
+.hijo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    /* position: absolute; */
+    bottom: 0;
+    /* con fixed respeta la posicion en la pantalla del navegadpor */
+    position: fixed;
+}
+.hija{
+    width: 200px;
+    height: 100px;
+    border: 1px solid yellow;
+    background-color: rgb(218, 12, 218);
+    
+    /* bottom: 0; */
+}
+.hijastro{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 184, 17);
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translate(0,-50%)
+}
+.linea{
+    border-bottom: 2px solid yellow;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%
+}

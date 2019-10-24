@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    background-color: pink;
+}
+header{
+    width: 95%;
+    height: 50%;
+    background-color: tomato;
+    float: left;
+    position: relative;
+    left: 2.5%;
+}
+.celeste{
+    margin-top: 2.5%;
+    height: 22.5%;
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    float: left;
+}
+section{
+    /* height: 22.5%;
+    position: relative; */ 
+}
+.celeste>section{
+    height: 100%;
+    background-color: skyblue;
+}
+.s1{
+    float: left;
+    width: 49%;
+}
+.s2{
+    float: right;
+    width: 49%;
+}
+.violeta{
+    /* ancho */
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    height: 22.5%;
+    margin-top: 2.5%;
+}
+.s3, .s4 , .s5{
+width: 32%;
+background-color: violet;
+height: 100%;
+
+}
+.s3{
+    float: left;
+   }
+.s4{
+    float: left;
+    margin-left: 2%;
+}
+.s5{
+    float: right;
+}

@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(0, 255, 76);
+    position: relative;
+}
+#d1{
+    /* de arriba para abajo avanzo 20px */
+    top: 20px;
+    left: 20px;
+}
+.contenedor{
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgb(15, 191, 197);
+    position: relative;
+    left: 25%;
+    top: 25%;
+    /* 50% al tamaño del objeto */
+    transform: translate(-50%,-50%);
+
+}

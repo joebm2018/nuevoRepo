@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\bin\Debug\netcoreapp2.1\arreglos.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\bin\Debug\netcoreapp2.1\arreglos.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\bin\Debug\netcoreapp2.1\arreglos.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\bin\Debug\netcoreapp2.1\arreglos.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\bin\Debug\netcoreapp2.1\arreglos.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 6\arreglos\arreglos\obj\Debug\netcoreapp2.1\arreglos.pdb

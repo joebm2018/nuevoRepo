@@ -1,0 +1,50 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+#padre{
+    height: 100%;
+    display: flex;
+    /* space-evenly - disposicion del espacio es igual
+    space-around
+    justify- content predertinadamente a a ser
+    fñlex-
+
+    */
+    /* justify-content: space-around; */
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* direccion abajo 
+    flex-direction; woe row-reverse, colum, column-reverse
+    row-reverse- invierte */
+    align-items: flex-start;
+    /* align-items: center; */
+
+    /* permite tener mi contenido en viaras lineas */
+    flex-wrap: wrap;
+}
+
+.hijo{
+    border: 5px solid blue;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 30px;
+/* 0: no va a dejar que se encoja
+    1: si lo permite */
+    flex-shrink: 0;
+
+    /*  */
+    flex-grow: 1;
+}
+#mayor{
+    flex-grow: 1;
+/* flex-grow  flex-shrink flex-basis */
+    flex: 1 0 45%;
+
+}

@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	height: 100%;
+}
+body{
+	width: 100%;	
+}
+header{
+    width: 100%;
+    height: 12%;
+    border: 1px solid;
+}
+.logo{
+    width: 110px;
+    /* position: absolute; */
+    float: left;
+}
+
+.logoCodigo{
+    width: 150px;
+    /* position: absolute; */
+    float: right;
+}
+h1{
+    padding-top: 13px ;
+}
+h2{
+    color: rgb(44, 132, 204);
+}
+main{
+    height: 78%;
+    border: 1px solid;
+}
+/*  */
+.titulo-canal{
+	width: 100%;
+	height: 10%;
+	padding: 25px;	
+}
+
+.titulo-canal h2{	
+	text-align: center;
+	font-family: "Open Sans", "Arial";
+	font-size: 26px;
+}
+
+/* Estilos seccion 1 (color rojo) */
+.seccion-canal1{
+	width: 590px;
+	height: 220px;
+	border: 1px solid black;
+	background-color:#EBCAAE;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.titulo-canal1{
+	border: 5px solid red;
+	background-color: #EBB1B8;
+	height: 80px;
+}
+
+.titulo-canal1 h3{
+	font-family: "Open Sans";
+	font-size: 28px;
+	margin-top: 16px;
+	text-align: center;
+}
+
+.contenedor-canal1{
+	padding: 10px;
+	height: 115px;
+    border-top: 1px solid black;    
+}
+
+.descripcion-canal1 ul>li{
+	list-style: none;
+}
+
+.descripcion-canal1{
+    float:left;
+    height: 100%;    
+    margin: 8px 10px 0 10px;
+}
+
+.contenedor-videos1{
+    float:	left;       
+	margin: 0 5px 0 10px;     	
+}
+
+.contenedor-categoria1{
+	border-top: 1px solid black;
+	background-color: white;
+    height: 100%;    		
+}
+
+.categoria-canal1{    
+    float:left;    
+    margin:2px 0 2px 15px;    
+}
+
+.logo-canal1{
+	float:right;
+	margin:2px 12px 2px 0;
+}
+
+.calificacion-canal1{
+	height:25px;
+}
+
+.calificacion-canal1 li a{
+	text-decoration: none;
+}
+
+.calificacion-canal1 li{
+	display: inline;
+}
+
+.calificacion-canal1 li a{
+	color:orange;
+}
+
+.calificacion-canal1 li a:hover{
+	color:purple;
+}
+
+.seccion-canal2{
+	width: 590px;
+	height: 220px;
+	border: 1px solid black;
+	background-color:#FFE088;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.titulo-canal2{
+	border: 5px solid #FFD319;
+	background-color: #FFFACC;
+	height: 80px;
+}
+
+.titulo-canal2 h3{
+	font-family: "Open Sans";
+	font-size: 28px;
+	margin-top: 16px;
+	text-align: center;
+}
+
+.contenedor-canal2{
+	padding: 10px;
+	height: 115px;
+	border-top: 1px solid black;
+}
+
+.descripcion-canal2 ul>li{
+	list-style: none;
+}
+
+.descripcion-canal2{
+    float:left;
+    height: 100%;
+	margin: 8px 10px 0 10px;
+}
+
+.contenedor-videos2{
+	float:	left;
+	margin: 0 5px 0 10px;
+}
+
+.contenedor-categoria2{
+	border-top: 1px solid black;
+	background-color: white;
+	height: 100%;		
+}
+
+.categoria-canal2{
+	float:left;
+	margin:2px 0 2px 15px;
+}
+
+.logo-canal2{
+	float:right;
+	margin:2px 12px 2px 0;
+}
+
+.calificacion-canal2{
+	height:25px;
+}
+
+.calificacion-canal2 li a{
+	text-decoration: none;
+}
+
+.calificacion-canal2 li{
+	display: inline;
+}
+
+.calificacion-canal2 li a{
+	color:orange;
+}
+
+.calificacion-canal2 li a:hover{
+	color:purple;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid;
+    /* margin: 0 auto; */
+}
+nav.menu{
+    width: 100%;
+}
+nav.menu ul{
+    list-style: none;
+}
+nav.menu ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding-top: 10px;
+}
+.mapa{
+    position: relative; 
+    top: -53px;
+}

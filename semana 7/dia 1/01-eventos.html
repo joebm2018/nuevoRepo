@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link id="estilos" rel="stylesheet" href="01-eventos-dark.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        header{
+            height: 5%;
+        }
+        main{
+            height: 95%;
+            position: relative;
+        }
+        .boton{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="liDark">dark</li>
+                <li id="liLight">light</li>
+            </ul>
+        </nav>
+    </header>
+    <main id="principal">
+        <button class="boton" id="btnCentral">
+            Click
+        </button>
+    </main>
+    <script src="01-eventos.js"></script>
+</body>
+</html>

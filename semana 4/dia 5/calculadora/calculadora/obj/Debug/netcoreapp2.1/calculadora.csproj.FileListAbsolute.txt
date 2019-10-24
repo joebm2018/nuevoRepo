@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\bin\Debug\netcoreapp2.1\calculadora.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\bin\Debug\netcoreapp2.1\calculadora.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\bin\Debug\netcoreapp2.1\calculadora.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\bin\Debug\netcoreapp2.1\calculadora.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\bin\Debug\netcoreapp2.1\calculadora.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\calculadora\calculadora\obj\Debug\netcoreapp2.1\calculadora.pdb

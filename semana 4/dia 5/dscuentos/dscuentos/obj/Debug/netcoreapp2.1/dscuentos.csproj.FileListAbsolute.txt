@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\bin\Debug\netcoreapp2.1\dscuentos.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\bin\Debug\netcoreapp2.1\dscuentos.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\bin\Debug\netcoreapp2.1\dscuentos.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\bin\Debug\netcoreapp2.1\dscuentos.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\bin\Debug\netcoreapp2.1\dscuentos.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6-Joes\Semana 4\dia 5\dscuentos\dscuentos\obj\Debug\netcoreapp2.1\dscuentos.pdb

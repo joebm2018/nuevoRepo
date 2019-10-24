@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+header{
+    /* border: 2px solid green; */
+    background-color: green;
+    /* altura height */
+    height: 10%;
+}
+section{
+    display: inline-block;
+}
+main{
+    height: 90%;
+    background-color: aqua;
+}
+.s1, .s2{
+    height: 100%;
+}
+.s1{
+    background-color: red;
+    width: 40%;
+}
+.s2{
+    background-color: peru;
+    width: 60%;
+}

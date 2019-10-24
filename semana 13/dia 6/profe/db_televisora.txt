@@ -1,0 +1,9 @@
+Una compañia de television desea desarrollar una base de datos
+para almacenar informacion acerca de las series que esta produce.
+Los datos incluyen información acerca de los actores que actúan
+en las series y directores que dirigen los capitulos de las series.
+Los actores y directores son contratados por la compañia. Una serie
+de televisión está dividida en episodios. Cada episodio puede ser
+transmitido varias veces. Cada episodio de las series es dirigida
+por un director, pero distintos episodios pueden ser dirigidos por
+diferentes directores.

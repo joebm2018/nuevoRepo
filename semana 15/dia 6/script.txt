@@ -1,0 +1,16 @@
+CREATE DATABASE SysLog;
+go
+use SysLog;
+go
+
+create table usuarios(
+	correo  varchar(30) not null,
+	contrasena varchar(30) not null,
+	nombre varchar(30) not null,
+	fechaNacimiento date,
+	privilegios char(1) not null
+);
+
+insert into usuarios values('joebm@msn.com','123','joe','20160101','1');
+
+select * from usuarios

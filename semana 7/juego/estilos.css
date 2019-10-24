@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffcb1e;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#marco{
+    width:500px;
+    height:600px;
+    margin:25px;
+    border:3px solid #cf4646;
+    border-radius:10px;
+    background-color:#95e6ff;
+    position:absolute;
+}
+#mascota{
+    position:relative;
+}
+
+fieldset{
+    padding:20px;
+}
+
+#control{
+    width:500px;
+    height:600px;
+    position:absolute;
+    top:25px;
+    left:550px;
+    border:3px solid #4654cf;
+    border-radius:10px;
+    padding:20px;
+}
+.redondo{
+    width:68px;
+    height:68px;
+    border:2px solid #18997d;
+    border-radius:50%;
+    float:left;
+    margin-right:20px; 
+}
+.redondo:hover{
+    box-shadow: 5px 5px 5px rgba(209, 135, 51, 0.774);
+}
+
+

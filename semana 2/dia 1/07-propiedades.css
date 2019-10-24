@@ -1,0 +1,53 @@
+body{
+    background-image: url(textura01.jpg);
+}
+h1{
+    /* shadow color tamaño sombraH, V,difuminacion */
+    text-shadow: rgb(128,128,128) 4px 4px 5px;
+    
+    /* bordea el texto */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+
+
+}
+#sombra{
+    border: 2px solid #225558;
+    /* shadow coloca sombra minimo 2 valores  */
+    /* box-shadow: 4px 4px; */
+   
+    /*  con el 3 valor se disemina */
+    /* box-shadow: 4px 4px 10px; */
+   
+    /* cuarto valor de que grosor sera la sombra */
+    box-shadow: 4px 4px 10px 2px;
+
+    /* un ultimo valor es el color de la somrba */
+    box-shadow: 4px 4px 10px 2px #ec05ba;
+
+    /* en degrade d dos  a mas colores */
+    /* background-image: linear-gradient(red,yellow, green); */
+   
+    /* background-image: linear-gradient (to right,red,yellow, green); */
+
+    background: -webkit-radial-gradient(right,ELLIPSE,transparent,darkblue)
+}
+img{
+    width: 300px;
+    /* grayscale convierte una imagen de colores en escala de grises, ademas que acepta valores de 0 a 1 */
+    /* filter: grayscale(1); */
+    
+    /* saturate sauracion de img */
+    /* /* filter: saturate(5); */
+    
+    /* brightness cambiar el brillo - aumenta elk flash */
+    /* filter: brightness(5) */
+
+    /* invert pone en negativo valores de 0-1 */
+    /* filter: invert(1); */
+
+    /* blur va de 0-1 bifuminara  */
+    /* filter: blur(5px); */
+    /* contrast */
+    filter: contrast(3);
+}

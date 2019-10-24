@@ -1,0 +1,12 @@
+{
+  "name": "proyectox",
+  "version": "1.0.0",
+  "description": "proyecto inicial de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./index.js"
+  },
+  "author": "Joe BM",
+  "license": "MIT"
+}

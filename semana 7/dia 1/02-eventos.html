@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        body{
+
+            background-color:#90FF68;
+            position: relative;
+        }
+        .correo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 50%;
+            height: 10%;
+            background-color: transparent;
+            border: 0;
+            /* elimina el color de focus */
+            outline: none;
+            border-bottom: 4px solid #666666;
+            font-size: 45px;
+            color:cadetblue;
+        }
+        .mensaje{
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%,0);
+            width: 50%;
+            height: 10%; 
+            font-size: 25px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" 
+           class="correo" id="inputCorreo"
+           placeholder="Introduzca su correo">
+    <span class="mensaje" hidden id="resultado">el correo ingresado esta en uso</span>
+<!-- el atributo hidden = oculto 
+    o hidden="true" -->
+
+
+    <script src="02-eventos.js"></script>
+    
+</body>
+</html>

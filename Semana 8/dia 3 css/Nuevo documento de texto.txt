@@ -1,0 +1,2 @@
+crendo el constructor de 3
+Libro libro3=new Libro("la vaca", 40,newAutor("Psicologo","ag@,co"));

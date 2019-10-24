@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <title>Document</title>
+  <style>
+    .altura-300 {
+      height: 300px;
+    }
+
+    .altura-100 {
+      height: 100px;
+    }
+
+    .fondo-celeste {
+      background-color: #b5f8ff;
+    }
+
+    .fondo-morado {
+      background-color: #a4a2fe;
+    }
+
+    .fondo-rosado {
+      background-color: #ffbaf7;
+    }
+
+    .fondo-textura {
+      background-image: url("./textura.png");
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid fondo-textura">
+    <h4><code>class="align-items-start"</code></h4>
+    <p> Alinea los elementos en la parte superior de una fila.</p>
+    <div class="row align-items-start altura-300 fondo-celeste">
+      <div class="col m4 altura-100 fondo-morado">Columna => 01</div>
+      <div class="col m4 altura-100 fondo-rosado">Columna => 02</div>
+      <div class="col m4 altura-100 fondo-morado">Columna => 03</div>
+    </div>
+    <div class="container">
+      <h4><code>class="align-items-center"</code></h4>
+      <p> Alinea los elementos en la parte central de una fila.</p>
+      <div class="row valign-wrapper altura-300 fondo-celeste">
+        <div class="col m4 altura-100 fondo-morado">Columna => 01</div>
+        <div class="col m4 altura-100 fondo-rosado">Columna => 02</div>
+        <div class="col m4 altura-100 fondo-morado">Columna => 03</div>
+      </div>
+    </div>
+    <!-- <h4><code>class="align-items-end"</code></h4>
+    <p> Alinea los elementos en la parte inferior de una fila.</p>
+    <div class="row align-items-end altura-300 fondo-celeste">
+      <div class="col m4 altura-100 fondo-morado">Columna => 01</div>
+      <div class="col m4 altura-100 fondo-rosado">Columna => 02</div>
+      <div class="col m4 altura-100 fondo-morado">Columna => 03</div>
+    </div> -->
+  </div>
+
+
+</body>
+
+</html>

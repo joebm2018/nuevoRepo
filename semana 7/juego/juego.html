@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Document Game con Element</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./juego.js"></script>
+</head>
+<body>
+    <!-- nuestro marco donde estará nuestra mascota -->
+    <div id="marco">
+        <div id="mascota"></div>
+    </div>
+    <!-- nuestros controles -->
+    <div id="control">
+        <fieldset>
+            <legend>Seleccione la comida</legend>
+            <label>Comida: </label>
+            <select id="comida">
+                <option value="0">Elija...</option>
+                <option value="C">Carne</option>
+                <option value="V">Vegetales</option>
+            </select>
+            <label>Tipo de comida</label>
+            <select id="tipocomida" disabled>
+                <option value="0">Elija...</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Seleccione la mascota</legend>
+            <div id="lobo" class="redondo">
+                <img src="./img/lobo.png">
+            </div>
+
+            <div id="dino" class="redondo">
+                <img src="img/dino.png">
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Controles</legend>
+            <div id="instrucciones">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

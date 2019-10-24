@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+header{
+    height: 10%;
+}
+main{
+    height: 90%;
+}
+#padre{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#hermano{
+    display: flex;
+    width: 30%;
+}
+.hijos{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    flex-direction: column;
+
+}
+.arriba, .abajo{
+    /* vana a ser iguales relacion de 1 a 1 */
+    flex-grow: 1;
+    /* hacemos que no se encoja con el valor 0 */
+    flex-shrink: 0;
+    /* le da un tamaño inicial */
+    flex-basis: 50%;
+}
+.abajo{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.abajo p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: justify;
+}

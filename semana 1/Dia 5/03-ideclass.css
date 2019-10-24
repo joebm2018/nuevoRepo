@@ -1,0 +1,75 @@
+#t1{
+    color: brown;
+    font-size: 20px;
+}
+#t2{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#unparrafo{
+    color: red;
+}
+.vparrafo{
+    /* bold negrita bolder mas negrita */
+    font-weight: bolder;
+    background-color: greenyellow;
+    color: orange;
+}
+section .multiple{
+    background-color: skyblue;
+    color: green;
+}
+.article p{
+    color: blue;
+    background-color: gray;
+    font-style: italic;
+}
+#p1{
+    background-color: black;
+    color: red;
+}
+#p2{
+    background-color: red;
+    color: black;
+}
+#p3{
+    background-color: yellow;
+    color:dimgray;
+}
+#p4{
+    background-color: dimgray;
+    color: yellow;
+}
+p .p11{
+    font-size: 50px;
+}
+label[for]{
+    background-color: skyblue;
+    font-size: 24px;
+}
+label[for="variable"]{
+    background-color: red;
+    font-size: 34px;
+    font-weight: bold;
+} 
+/* selecciona un elemento '#t1' un elelemto hijo 'tr' seguido
+por :nth-child(v) --> selector hijo:nth-child(v)
+
+toda la fila*/
+#t1 tr:nth-child(3){
+    background-color: skyblue;
+    font-weight: bold;
+}
+/* odd - impares
+  even - pares */
+#t2 tr:nth-child(odd){
+    background-color: gray;
+    color: black;
+}
+/* va a buscar todo los div que pueda colocar estas propiedades pero a excepcion
+de la clase o valor que le este pasando a not(clase o valor) */
+div:not(.excepcion){
+    font-size: 40px;
+    background-color: violet;
+}

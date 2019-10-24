@@ -1,0 +1,57 @@
+/* solo estamos llamando a kmi archivo de fuentes y poniendole un alias */
+@font-face{
+    font-family: 'codigo';
+    src: url(AlexBrush-Regular.ttf)
+}
+*{
+    background: gray;
+}
+#fontfamily{
+    font-family: cursive;
+}
+#fontsize{
+    font-size: 40px;
+}
+#fontweight{
+    font-weight: bolder;
+}
+#fontstyle{
+    font-style: unset;
+}
+/* estilos (bold italic) tamaño (24px) familia */
+#font{
+    /* font-weight: bold;
+    font-family: arial;
+    font-size: 24px; */
+    font:bold 24px Arial,cursive;
+}
+#textalign{
+    text-align: right;
+}
+#textalign2{
+    text-align: justify;
+}
+#textindent{
+    text-indent: 30px;
+}
+#letterspacing{
+    letter-spacing: 6px;
+}
+#wordspacing{
+    word-spacing: 14px;
+}
+#lineheight{
+    line-height: 46px;
+}
+#textdecoration{
+    text-decoration: line-through red;
+}
+#customfont{
+    font-family: 'codigo';
+    user-select: none;
+    -moz-user-select: none;
+}
+h1{
+    color: yellowgreen;
+    font-family: 'Dancing Script', cursive;
+}
