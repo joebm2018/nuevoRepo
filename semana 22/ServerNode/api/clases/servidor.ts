@@ -2,6 +2,9 @@ import express from 'express';
 import { producto_router } from './../rutas/producto'
 import  bodyParser from 'body-parser';
 import morgan from 'morgan';
+
+import {pruebaConexion} from '../config/sequelize';
+import {sequelize} from '../config/sequelize'
 export class Servidor{
     public app: express.Application;
     public puerto:number;
@@ -23,6 +26,14 @@ export class Servidor{
     start(){
         this.app.listen(this.puerto,()=>{
             console.log("Servidor Corriendo Correctamente, en el puerto"+this.puerto);            
+        })
+        pruebaConexion();
+        sequelize.sync({force:false}).then(()=>{
+            console.log("Tablas creadas con exito");
+            
+        }).catch((error:any)=>{
+            console.log("ERROR, no se pudo crear las tablas",error);
+            
         })
     }
 
