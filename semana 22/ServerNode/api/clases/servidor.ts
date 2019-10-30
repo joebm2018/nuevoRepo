@@ -28,7 +28,8 @@ export class Servidor{
             console.log("Servidor Corriendo Correctamente, en el puerto"+this.puerto);            
         })
         pruebaConexion();
-        sequelize.sync({force:false}).then(()=>{
+        // sequelize.sync({force:false}).then(()=>{
+        sequelize.sync({force:true}).then(()=>{
             console.log("Tablas creadas con exito");
             
         }).catch((error:any)=>{

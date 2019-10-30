@@ -1,8 +1,10 @@
-import {producto_model} from '../models/producto'
 import {Sequelize} from 'sequelize'
-
+import { producto_model } from '../models/producto'
+import { empleado_model } from '../models/empleado'
+import { ventas_model } from '../models/ventas'
+import { detVentas_model } from '../models/det_ventas'
 //Sequelize necesist para conectarse ('base de datos','usuario','contraseña', {opciones adiciconales})
-export const sequelize=new Sequelize('tienda','root','root',{
+export const sequelize=new Sequelize('tienda2','root','root',{
     host:'localhost',
     dialect:'mysql',
     timezone:'-05:00',
@@ -17,3 +19,11 @@ export const pruebaConexion=()=>{
     })
 }
 export const Producto=producto_model(sequelize,Sequelize);
+
+export const Empleado=empleado_model(sequelize,Sequelize);
+export const Ventas=ventas_model(sequelize,Sequelize);
+export const detVentas=detVentas_model(sequelize,Sequelize);
+
+//LA RELACIONES EN LA TABLA VENTASS belongsto y hasmany para que vaya en ambos sentidos
+Ventas.belongsTo(Empleado,{foreignKey:'emp_id'});
+Empleado.hasMany(Ventas,{foreignKey:'emp_id'});
