@@ -1,5 +1,8 @@
 import express from 'express';
-import { producto_router } from './../rutas/producto'
+
+import { producto_router } from './../rutas/producto';
+import { empleado_router } from '../rutas/empleado'
+
 import  bodyParser from 'body-parser';
 import morgan from 'morgan';
 
@@ -22,6 +25,7 @@ export class Servidor{
     }
     configurarRutas(){
         this.app.use(producto_router);
+        this.app.use(empleado_router);
     }
     start(){
         this.app.listen(this.puerto,()=>{
@@ -29,7 +33,7 @@ export class Servidor{
         })
         pruebaConexion();
         // sequelize.sync({force:false}).then(()=>{
-        sequelize.sync({force:true}).then(()=>{
+        sequelize.sync({force:false}).then(()=>{
             console.log("Tablas creadas con exito");
             
         }).catch((error:any)=>{

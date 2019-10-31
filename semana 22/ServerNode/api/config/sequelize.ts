@@ -27,3 +27,9 @@ export const detVentas=detVentas_model(sequelize,Sequelize);
 //LA RELACIONES EN LA TABLA VENTASS belongsto y hasmany para que vaya en ambos sentidos
 Ventas.belongsTo(Empleado,{foreignKey:'emp_id'});
 Empleado.hasMany(Ventas,{foreignKey:'emp_id'});
+// RELACIONES DE VENTAS CON DET-VENTAS
+detVentas.belongsTo(Ventas,{foreignKey:'vent_id'});
+Ventas.hasMany(detVentas,{foreignKey:'vent_id'});
+//PRODUCTO CON DET-VENTAS
+detVentas.belongsTo(Producto,{foreignKey:'prod_id'});
+Producto.hasMany(detVentas,{foreignKey:'prod_id'});
