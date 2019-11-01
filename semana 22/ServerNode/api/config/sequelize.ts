@@ -19,7 +19,6 @@ export const pruebaConexion=()=>{
     })
 }
 export const Producto=producto_model(sequelize,Sequelize);
-
 export const Empleado=empleado_model(sequelize,Sequelize);
 export const Ventas=ventas_model(sequelize,Sequelize);
 export const detVentas=detVentas_model(sequelize,Sequelize);

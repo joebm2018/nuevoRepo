@@ -1,4 +1,5 @@
 import {Sequelize, Model} from 'sequelize';
+
 // import { modelo_router} from '../rutas/'
 
 export var empleado_model=(sequelize:Sequelize, type:any)=>{
@@ -25,5 +26,10 @@ export var empleado_model=(sequelize:Sequelize, type:any)=>{
         modelName: 't_empleados',
         timestamps:false  //no cree dos columnas 
       })
+
+      // empleado_model.prototype.mostrarDatos = function(){
+      //   console.log();
+        
+      // }
       return empleado_model;
 }
