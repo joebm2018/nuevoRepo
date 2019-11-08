@@ -1,5 +1,6 @@
 import { DataTypes, Sequelize } from "sequelize";
 const crypto = require ('crypto');
+const jwt=require('jsonwebtoken'); // UTILIZAMOS LA LIBRERIA WEBTOKEN
 export let usuario_model=(sequelize:Sequelize)=>{
     var usuario=sequelize.define('t_usuarrio',{
         usu_id:{
@@ -37,5 +38,19 @@ export let usuario_model=(sequelize:Sequelize)=>{
         this.usu_salt,1000,64,'sha512').toString('hex');
         }
 
+    usuario.prototype.validPass=function(password:any){
+        let usu_hash_tmp=crypto.pbkdf2Sync(password,this.usu_salt,1000,64,'sha512').toString('hex');
+        return usu_hash_tmp===this.usu_hash; //SI SON IGUALES RETORNA TRUE 
+                                            // SI NO SON IGUALES RETORNA FALSE
+    }
+    //llamamos a esta funcion despues que se ha logueado
+    usuario.prototype.generarJWT=function(){
+        let payload={
+            usu_id:this.usu_id,
+            usu_nom:`${this.usu_nom} ${this.usu_ape}`
+        }
+        let token=jwt.sign(payload,'codigo6',{expiresIn:'1h'},{algorithm:'RS256'})
+        return token;
+    }
     return usuario;
 }
