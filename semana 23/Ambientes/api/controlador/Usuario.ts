@@ -48,7 +48,7 @@ export let iniciarSesion=(req:Request,res:Response)=>{
             //usu_email:usu_email
             usu_email
         }
-    }).then((objUsuario:any){
+    }).then((objUsuario:any)=>{
         if(objUsuario){
             let validarPass=objUsuario.validPass(buff);
             if (validarPass){

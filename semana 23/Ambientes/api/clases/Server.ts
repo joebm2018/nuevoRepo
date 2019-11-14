@@ -7,7 +7,8 @@ let bodyParser=require('body-parser');
 const swaggerUi = require('swagger-ui-express');
 //cambiamos esta linea
 // const swaggerDocument = require('./../apidocs/documentacion.json');  
-import * as swaggerDocument from './../apidocs/documentacion.json';  
+import * as swaggerDocument from './../apidocs/swagger.json';
+
 import { aula_router } from '../rutas/Aula';
 import { usuario_router } from '../rutas/Usuario';
 import { reserva_router } from '../rutas/Reservas';
