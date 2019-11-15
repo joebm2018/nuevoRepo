@@ -5,7 +5,7 @@ import { usuario_model } from '../modelos/Usuario';
 import { reserva_model } from '../modelos/Reserva';
 const Sequelize = require("sequelize");
 
-export const conexion = new Sequelize('KjYc5k3hVB', 'KjYc5k3hVB', '9VX14TSaKB', {
+export const conexion = new Sequelize('924jQLyJWX', '924jQLyJWX', '1dz0KGYjag', {
   host: 'remotemysql.com',
   dialect: 'mysql',
   timezone: '-05:00',
