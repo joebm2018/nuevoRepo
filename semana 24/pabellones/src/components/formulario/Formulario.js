@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Swal from 'sweetalert2';
-import {withRouter} from 'react-router-dom'
-export default class Formulario extends Component {
+import {withRouter} from 'react-router-dom';
+
+class Formulario extends Component {
   state = {
     nombrePabellon: "",
     error: false
@@ -42,7 +43,7 @@ export default class Formulario extends Component {
           pab_nom: this.props.formValues.nombrePabellon
         };
         axios
-          .post("https://probandonodecodigo.herokuapp.com/api/pabellon", data, {
+          .post("http://localhost:5000/api/pabellon", data, {
             headers: misHeaders
           })
           .then(rpta => {
@@ -53,7 +54,7 @@ export default class Formulario extends Component {
                 'Exito al creado el pabellon',
                 'success'
             ).then(()=>{
-                this.props.history.push('/pabellones')
+              this.props.history.push('/pabellones')
             })
             } else {
               console.log("Error algo ha pasado");
@@ -115,4 +116,4 @@ export default class Formulario extends Component {
   }
 }
 
-export default withRouter(Formulario)
+export default withRouter(Formulario);
