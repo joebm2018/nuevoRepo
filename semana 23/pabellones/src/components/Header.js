@@ -26,6 +26,12 @@ export default class Header extends Component {
                           </NavLink>
                           {/* <a className="nav-link" href="#">Reservas</a> */}
                       </li>
+                      <li className="nav-item">
+                            <NavLink className="nav-link" to={"/registro"}>
+                            Registro
+                          </NavLink>
+                          {/* <a className="nav-link" href="#">Reservas</a> */}
+                      </li>
                       
                   </ul>
                   <form className="form-inline my-2 my-lg-0">
