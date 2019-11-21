@@ -1,28 +1,40 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
 
-const Login = (props) =>{
+const Login = ({signin}) => {
+    
     let usuRef = React.createRef();
     let passRef = React.createRef();
-    const iniciarSesion = event =>{
-        event.preventDefault(); //
-        props.signin(usuRef.current.value, passRef.current.value);
+
+    const iniciarSesion = event => {
+        event.preventDefault();
+        signin(usuRef.current.value, passRef.current.value);
     }
+
     return(
-        <main className="container">
-            <div className="row">
+        <main className="container" >
+            <div className="row mt-5">
                 <div className="col-4"></div>
-                <div className="col-4">
-                    <form action="" className="form-group" onSubmit={iniciarSesion}>
+                <div className="col-4 align-middle">
+                    <form onSubmit={iniciarSesion}>
                         <div className="form-group">
-                            <label htmlFor="">Usuario</label>
-                            <input type="text" className="form-control" placeholder="Ingrese su usuario" ref="usuRef"/>
-                        </div> 
+                            <label>Usuario</label>
+                            <input 
+                            type="text" 
+                            className="form-control"
+                            placeholder="Ingrese su usuario"
+                            ref={usuRef}/>
+                        </div>
                         <div className="form-group">
-                            <label htmlFor="">Password</label>
-                            <input type="password" className="form-control" placeholder="Ingrese su Contraseña" ref="passRef"/>
-                        </div> 
-                        <input className="btn btn-success" type="submit" value="Iniciar Sesion"/>                       
+                            <label>Contraseña:</label>
+                            <input 
+                            type="password" 
+                            className="form-control"
+                            placeholder="Ingrese su contraseña"
+                            ref={passRef}/>
+                        </div>
+                        <input type="submit" value="Iniciar Sesión"
+                        className="btn btn-primary"/>
                     </form>
                 </div>
                 <div className="col-4"></div>

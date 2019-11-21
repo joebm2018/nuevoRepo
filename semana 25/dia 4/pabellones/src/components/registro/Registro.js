@@ -20,14 +20,13 @@ class Registro extends React.Component {
             }
         })
     }
-    
 
   render() {
     return (
       <div>
         <div className="container">
 
-          <div className="row mt-2">
+          <div className="row">
 
             <div className="col-6">
                 <Formulario 

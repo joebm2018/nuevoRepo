@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { NavLink, Link } from 'react-router-dom';
 
 export default class Header extends Component {
-  state = {
-    isLogged: false
-  }
   render() {
     return (
       <header>
@@ -32,26 +29,7 @@ export default class Header extends Component {
                   Registro
                 </NavLink>
               </li>
-              <li className="nav-item">
-                {
-                  this.props.isLogged ? 
-                  <NavLink className="nav-link" to={"/crearusuario"}>
-                  Crear Usuario
-                </NavLink>
-                : null
-                }
-              </li>
-              <li className="nav-item">
-                        {
-                            this.props.isLogged ?
-                                <Link className="nav-link"  to={"/login"} onClick={() => {
-                                    this.props.signout();
-                                }}>
-                                    Cerrar Sesion
-                                </Link> : null
-                                
-                        }
-                    </li>
+
             </ul>
             <form className="form-inline my-2 my-lg-0">
               <input className="form-control mr-sm-2" type="text" placeholder="Search" />
